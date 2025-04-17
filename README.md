@@ -31,46 +31,65 @@ A lightweight, AI-powered Resume Screener REST API built in Python + Flask, curr
 ### `POST /screen_resume`
 
 **Request JSON**
-json
+```json
 {
   "job_description": "AI/ML Engineer with Python and ML deployment skills.",
   "resume_base64": "<base64-encoded PDF content>"
 }
-
-
+```
 Response
 
+```json
 {
   "match_score": 78.23
 }
+```
+
 GET /
+
 Health check endpoint — returns:
-
+```
 Resume Screener API (Hugging Face Transformers) is running!
-📜 Setup Instructions (Local Dev)
-Clone the repo
+```
+## 📜 Setup Instructions (Local Dev)
+1.Clone the repo
 
+```bash
 git clone https://github.com/yourusername/ai-resume-screener.git
 cd ai-resume-screener
-Create a virtual environment
+```
 
+2.Create a virtual environment
+
+```bash
 python -m venv venv
 source venv/bin/activate
-Install dependencies
+```
 
+3.Install dependencies
+```nginx
 pip install -r requirements.txt
-Run locally
-
+```
+4.Run locally
+```nginx
 python app.py
-Production serving (Render/Gunicorn)
+```
 
+5.Production serving (Render/Gunicorn)
+```nginx
 gunicorn app:app
+```
 
 📊 Roadmap
+
 ✅ TF-IDF based screener
+
 ✅ Sentence Transformer-based semantic screener
+
 🔜 LLM-powered scoring (GPT / Gemini)
+
 🔜 Resume parsing & skill extraction
+
 🔜 Fine-tuned classifier models
 
 
