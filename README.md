@@ -76,7 +76,7 @@ gunicorn app:app
 
 ## 🖼️ AI Screener Deployment Diagram
 
-![AI Screener Deployment Flowchart](assets/A_flowchart_in_a_digital_diagram_illustrates_an_AI.png)
+![Image](https://github.com/user-attachments/assets/0cb9af30-852e-43c5-a1b4-5a0df043a8dd)
 
 
 ------
