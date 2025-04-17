@@ -1,7 +1,7 @@
 # 📄 AI-Powered Resume Screener (API)
 
 A lightweight, AI-powered Resume Screener REST API built in Python + Flask, currently using Hugging Face Sentence Transformers for semantic similarity scoring between job descriptions and resumes.
-
+ 
 ---
 
 ## 📌 Features
